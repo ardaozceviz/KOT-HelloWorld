@@ -1,7 +1,7 @@
 package Basics
 
 fun main(args: Array<String>) {
-    /*
+
     val myString = "arda"
 
     val myResult = if (myString != "") {
@@ -15,7 +15,6 @@ fun main(args: Array<String>) {
     println(name)
 
     println(myResult)
-    */
 
     val myValue = "atakan"
     when (myValue) {

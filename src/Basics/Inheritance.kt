@@ -13,11 +13,13 @@ open class myCustomer : Person{
     }
 }
 
+/*
 class specialCustomer: myCustomer(){
     override fun validate() { // final makes any open function to cannot be overridden in inherited classes
         super.validate()
     }
 }
+*/
 
 fun main(args: Array<String>) {
     var person = Person()

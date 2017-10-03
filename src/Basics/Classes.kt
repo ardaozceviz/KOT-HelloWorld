@@ -23,6 +23,13 @@ class Customer (val id: Int, var name:String = "") {
         }
 }
 
+data class Book(var author: String = "", var price: Int = 0){
+    fun printPriceAuthor(){
+        println("$author, $price")
+    }
+
+}
+
 fun main(args: Array<String>) {
     val customer = Customer(1,"arda")
     val customer2 = Customer(1)
@@ -31,4 +38,9 @@ fun main(args: Array<String>) {
     println(customer.id)
     println(customer.name)
     println(customer.socialSecurityNumber)
+
+    val myBook = Book()
+    myBook.author = "arda"
+    println(myBook.author)
+    myBook.printPriceAuthor()
 }

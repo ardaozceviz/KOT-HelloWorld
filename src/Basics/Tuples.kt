@@ -14,4 +14,9 @@ fun main(args: Array<String>) {
 
     println(capitalPopulation.first)
     println(countryInformation)
+
+    val (capital, continent, population) = countryInformation("Madrid")
+    println(capital)
+    println(population)
+    println(continent)
 }

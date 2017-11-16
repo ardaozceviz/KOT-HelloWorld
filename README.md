@@ -1,1 +1,3 @@
-# Starting to code on Kotlin with intellijIdea
+# Kotlin Essential
+
+My essential code practices in Kotlin.
